@@ -1,0 +1,2 @@
+#!/bin/sh
+python3 -tt -c "from afc import dump_extractor; dump_extractor.main();" "$@"
