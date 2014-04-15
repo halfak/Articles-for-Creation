@@ -45,7 +45,7 @@ FROM (
         INNER JOIN categorylinks ON
             cl_from = talk_page.page_id AND
             cl_to IN (
-                "Accepted AfC submissions",
+                "Accepted_AfC_submissions",
                 "Declined_AfC_submissions",
                 "Pending_AfC_submissions",
                 "Draft_AfC_submissions"
